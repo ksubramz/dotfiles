@@ -1,5 +1,21 @@
 " Krish Subramaniam's .vimrc
 
+" enable Pathogen
+call pathogen#helptags()
+call pathogen#runtime_append_all_bundles()
+
+" vim addons to install for Pathogen
+" see -- http://github.com/bronson/vim-update-bundles
+" also see vim-scripts.org
+" BUNDLE: git://github.com/vim-scripts/L9.git
+" BUNDLE: git://github.com/vim-scripts/FuzzyFinder.git
+" BUNDLE: git://github.com/vim-scripts/The-NERD-Commenter.git
+" BUNDLE: git://github.com/vim-scripts/Align.git
+" BUNDLE: git://github.com/vim-scripts/molokai.git
+" BUNDLE: git://github.com/vim-scripts/vividchalk.vim.git
+" BUNDLE: git://github.com/vim-scripts/desert256.vim.git
+
+
 filetype plugin indent on
 set nocompatible
 set mouse=a
