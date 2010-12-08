@@ -14,6 +14,8 @@ call pathogen#runtime_append_all_bundles()
 " BUNDLE: git://github.com/vim-scripts/molokai.git
 " BUNDLE: git://github.com/vim-scripts/vividchalk.vim.git
 " BUNDLE: git://github.com/vim-scripts/desert256.vim.git
+" BUNDLE: git://github.com/vim-scripts/jellybeans.vim.git
+
 
 
 filetype plugin indent on
