@@ -15,7 +15,11 @@ call pathogen#runtime_append_all_bundles()
 " BUNDLE: git://github.com/vim-scripts/vividchalk.vim.git
 " BUNDLE: git://github.com/vim-scripts/desert256.vim.git
 " BUNDLE: git://github.com/vim-scripts/jellybeans.vim.git
-
+" BUNDLE: git://github.com/vim-scripts/python.vim--Vasiliev.git
+" BUNDLE: git://github.com/vim-scripts/indentpython.vim
+" BUNDLE: git://github.com/vim-scripts/inkpot.git
+" BUNDLE: git://github.com/vim-scripts/rdark.git
+" BUNDLE: git://github.com/vim-scripts/LustyJuggler.git
 
 
 filetype plugin indent on
@@ -25,13 +29,23 @@ syntax enable " syntax highlighting
 set bs=indent,eol,start
 set showmatch
 
+" 256 color mode
+" ********************************************************************
+set t_Co=256
+if &t_Co == 256
+        colorscheme inkpot
+endif
+
+
 " Indenting
 " ********************************************************************
 set ai " Automatically set the indent of a new line (local to buffer)
 set si " smartindent	(local to buffer)
 set cindent
-set shiftwidth=2
+set shiftwidth=4
 set expandtab
+set tabstop=4
+
 
 " Windows
 " *********************************************************************
