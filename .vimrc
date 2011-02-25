@@ -16,10 +16,11 @@ call pathogen#runtime_append_all_bundles()
 " BUNDLE: git://github.com/vim-scripts/desert256.vim.git
 " BUNDLE: git://github.com/vim-scripts/jellybeans.vim.git
 " BUNDLE: git://github.com/vim-scripts/python.vim--Vasiliev.git
-" BUNDLE: git://github.com/vim-scripts/indentpython.vim
 " BUNDLE: git://github.com/vim-scripts/inkpot.git
+" BUNDLE: git://github.com/vim-scripts/indentpython.vim
 " BUNDLE: git://github.com/vim-scripts/rdark.git
 " BUNDLE: git://github.com/vim-scripts/LustyJuggler.git
+" BUNDLE: git://github.com/nathanaelkane/vim-indent-guides.git
 
 
 filetype plugin indent on
@@ -32,9 +33,9 @@ set showmatch
 " 256 color mode
 " ********************************************************************
 set t_Co=256
-if &t_Co == 256
-        colorscheme inkpot
-endif
+"if &t_Co == 256
+"        colorscheme inkpot
+"endif
 
 
 " Indenting
