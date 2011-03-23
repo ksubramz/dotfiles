@@ -1,0 +1,81 @@
+! black
+URxvt.color0  : #2E2E34343636
+URxvt.color8  : #555557575353
+! red
+URxvt.color1  : #CCCC00000000
+URxvt.color9  : #EFEF29292929
+! green
+URxvt.color2  : #4E4E9A9A0606
+URxvt.color10 : #8A8AE2E23434
+! yellow
+URxvt.color3  : #C4C4A0A00000
+URxvt.color11 : #FCFCE9E94F4F
+! blue
+URxvt.color4  : #34346565A4A4
+URxvt.color12 : #72729F9FCFCF
+! magenta
+URxvt.color5  : #757550507B7B
+URxvt.color13 : #ADAD7F7FA8A8
+! cyan
+URxvt.color6  : #060698209A9A
+URxvt.color14 : #3434E2E2E2E2
+! white
+URxvt.color7  : #D3D3D7D7CFCF
+URxvt.color15 : #EEEEEEEEECEC
+
+URxvt*foreground:White
+URxvt*background:Black
+
+! fonts
+! run "fc-list" for a list of available fonts
+! URxvt*font: xft:Pragmata:pixelsize=14
+URxvt*font: xft:Cousine:pixelsize=14
+
+URxvt*scrollBar: False
+URxvt*scrollTtyOutput: False
+URxvt*scrollTtyKeypress: True
+URxvt*secondaryScroll: True
+URxvt*saveLines: 8000
+
+URxvt.perl-ext-common : default,matcher
+URxvt.urlLauncher     : google-chrome
+URxvt.matcher.button  : 1
+
+URxvt*letterSpace: -1
+
+!Theme Eight
+!xterm colors
+xterm*background: rgb:00/00/00
+xterm*foreground: rgb:ff/ff/ff
+xterm*color0:     rgb:10/10/10
+xterm*color1:     rgb:cd/5c/5c
+xterm*color2:     rgb:2e/8b/57
+xterm*color3:     rgb:f0/e6/8c
+xterm*color4:     rgb:b0/c4/de
+xterm*color5:     rgb:ba/55/d3
+xterm*color6:     rgb:46/82/b4
+xterm*color7:     rgb:d3/d3/d3
+xterm*color8:     rgb:4d/4d/4d
+xterm*color9:     rgb:ff/6a/6a
+xterm*color10:    rgb:8f/bc/8f
+xterm*color11:    rgb:ff/fa/cd
+xterm*color12:    rgb:1e/90/ff
+xterm*color13:    rgb:db/70/93
+xterm*color14:    rgb:5f/9e/a0
+xterm*color15:    rgb:ff/ff/ff
+
+*customization: -color
+xterm*termName:  xterm-256color
+xterm*faceName:           terminusbold:pixelsize=14
+!xterm*font:             -*-dina-medium-r-*-*-16-*-*-*-*-*-*-*
+xterm*dynamicColors:      true
+xterm*utf8:               2
+xterm*eightBitInput:      true
+xterm*saveLines:          512
+xterm*scrollTtyKeypress:  true
+xterm*scrollTtyOutput:    false
+xterm*scrollBar:          true
+xterm*rightScrollBar:     true
+xterm*jumpScroll:         true
+xterm*multiScroll:        true
+xterm*toolBar:            false
