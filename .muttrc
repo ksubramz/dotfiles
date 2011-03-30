@@ -80,4 +80,4 @@ macro pager b '<enter-command>toggle sidebar_visible<enter><redraw-screen>'
 #
 
 # Colors
-source ~/mutt_color_256rc
+source ~/mutt.zenburn.256
