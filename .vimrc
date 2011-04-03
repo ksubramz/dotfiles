@@ -17,10 +17,12 @@ call pathogen#runtime_append_all_bundles()
 " BUNDLE: git://github.com/vim-scripts/jellybeans.vim.git
 " BUNDLE: git://github.com/vim-scripts/python.vim--Vasiliev.git
 " BUNDLE: git://github.com/vim-scripts/inkpot.git
+" BUNDLE: git://github.com/vim-scripts/darkspectrum.git
 " BUNDLE: git://github.com/vim-scripts/indentpython.vim
 " BUNDLE: git://github.com/vim-scripts/rdark.git
 " BUNDLE: git://github.com/vim-scripts/LustyJuggler.git
 " BUNDLE: git://github.com/nathanaelkane/vim-indent-guides.git
+" BUNDLE: git://github.com/vim-scripts/moin.vim
 
 
 filetype plugin indent on
@@ -110,7 +112,6 @@ nmap <leader>f :FufFile<CR>
 nmap <leader>b :FufBuffer<CR>
 nmap <leader>c :FufMruCmd<CR>
 nmap <leader>F :FufMruFile<CR>
-nmap <leader>t :FufTag<CR>
 nmap <leader>n :bn<CR>
 
 

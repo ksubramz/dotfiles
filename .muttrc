@@ -39,11 +39,12 @@ bind pager <up> previous-line
 bind pager <down> next-line
 bind pager k previous-line
 bind pager j next-line
-bind pager gg top
-bind pager G bottom
 bind index gg first-entry
-bind index G last-entry
 
+bind index,pager gn next-new
+bind index,pager gp previous-new
+bind index,pager gN next-unread-mailbox
+bind index,pager G group-reply
 # abook
 #
 set query_command= "abook --mutt-query '%s'"
@@ -53,9 +54,9 @@ macro generic,index,pager \ca "abook" "launch abook"
 # Sidebar
 #
 #
-set sidebar_width=30
+set sidebar_width=23
 set sidebar_delim='|'
-color sidebar_new brightred color233
+color sidebar_new brightgreen color232
 
 # ctrl-n, ctrl-p to select next, prev folder
 # ctrl-o to open selected folder
@@ -81,3 +82,4 @@ macro pager b '<enter-command>toggle sidebar_visible<enter><redraw-screen>'
 
 # Colors
 source ~/mutt.zenburn.256
+source ~/.muttsecret
