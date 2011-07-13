@@ -1,0 +1,13 @@
+set hintkeys="asdfglkjh"
+bma -k=r http://reddit.com/r/%s/
+noremap [ <C-o> 
+noremap ] <C-i> 
+noremap f F
+hi Hint -a text-transform: uppercase;
+nno j 3j
+nno k 3k
+
+set passkeys+='mail\.google\.com':c/jkhnpovuelxsfra#`[]z?*nrtgidIU+-=<Tab><Return>
+set passkeys+='mail\.google\.com/tasks/canvas':<Tab><S-Tab><Return>
+set passkeys+='google\.com/reader':jkvnpbumoaAXNOVPJK?gehtl<Return>
+set passkeys+='twitter\.com':jk<Space>/.frtmn?ghrpu<Return>
