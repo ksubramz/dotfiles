@@ -23,6 +23,7 @@ call pathogen#runtime_append_all_bundles()
 " BUNDLE: git://github.com/vim-scripts/LustyJuggler.git
 " BUNDLE: git://github.com/nathanaelkane/vim-indent-guides.git
 " BUNDLE: git://github.com/vim-scripts/moin.vim
+" BUNDLE: git://github.com/vim-scripts/pep8.git
 
 
 filetype plugin indent on
