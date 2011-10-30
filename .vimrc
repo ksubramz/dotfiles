@@ -24,6 +24,7 @@ call pathogen#runtime_append_all_bundles()
 " BUNDLE: git://github.com/nathanaelkane/vim-indent-guides.git
 " BUNDLE: git://github.com/vim-scripts/moin.vim
 " BUNDLE: git://github.com/vim-scripts/pep8.git
+" BUNDLE: git://github.com/kien/ctrlp.vim
 
 
 filetype plugin indent on
@@ -140,6 +141,11 @@ inoremap <right> <nop>
 inoremap <F1> <ESC>
 nnoremap <F1> <ESC>
 vnoremap <F1> <ESC>
+
+" IndentGuides Setting (for Python )
+" Press ,ig for displaying it
+let g:indent_guides_start_level=2
+let g:indent_guides_guide_size=1
 
 "statusline
 set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [ASCII=\%03.3b]\ [HEX=\%02.2B]\ [POS=%04l,%04v][%p%%]\ [LEN=%L]
