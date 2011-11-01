@@ -27,6 +27,8 @@ call pathogen#runtime_append_all_bundles()
 " BUNDLE: git://github.com/kien/ctrlp.vim
 " BUNDLE: git://github.com/vim-scripts/tir_black.git
 " BUNDLE: git://github.com/vim-scripts/zenesque.vim.git
+" BUNDLE: git://github.com/vim-scripts/tango-morning.vim.git
+" BUNDLE: git://github.com/vim-scripts/vylight.git
 
 
 filetype plugin indent on
